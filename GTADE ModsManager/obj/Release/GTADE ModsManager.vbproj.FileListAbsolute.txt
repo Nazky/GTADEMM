@@ -1,0 +1,30 @@
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\bin\Release\GTADE ModsManager.exe.config
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\bin\Release\GTADE ModsManager.exe
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\bin\Release\GTADE ModsManager.pdb
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\bin\Release\GTADE ModsManager.xml
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\obj\Release\GTADE_ModsManager.Home.resources
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\obj\Release\GTADE_ModsManager.Settings.resources
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\obj\Release\GTADE_ModsManager.Resources.resources
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\obj\Release\GTADE ModsManager.vbproj.GenerateResource.cache
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\obj\Release\GTADE ModsManager.vbproj.CoreCompileInputs.cache
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\obj\Release\GTADE ModsManager.exe
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\obj\Release\GTADE ModsManager.xml
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\obj\Release\GTADE ModsManager.pdb
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\obj\Release\GTADE_ModsManager.GTAVCM.resources
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\bin\Release\System.IO.Compression.ZipFile.dll
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\obj\Release\GTADE ModsManager.vbprojAssemblyReference.cache
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\obj\Release\GTADE ModsManager.vbproj.CopyComplete
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\bin\Release\SharpCompress.dll
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\bin\Release\System.Buffers.dll
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\bin\Release\System.Memory.dll
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\bin\Release\System.Numerics.Vectors.dll
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\bin\Release\System.Text.Encoding.CodePages.dll
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\bin\Release\System.Buffers.xml
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\bin\Release\System.Memory.xml
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\bin\Release\System.Numerics.Vectors.xml
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\bin\Release\System.Text.Encoding.CodePages.xml
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\obj\Release\GTADE_ModsManager.GTA3CM.resources
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\obj\Release\GTADE_ModsManager.GTASCM.resources
+C:\Users\echol\source\repos\GTADE ModsManager\GTADE ModsManager\obj\Release\GTADE_ModsManager.Credit.resources
