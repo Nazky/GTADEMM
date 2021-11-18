@@ -9,7 +9,7 @@ A mods manager for GTA The Triology : The Definitive Edition
 ------------
 
 ### How i install that ?
-#### Simply download the latest release [here]() and extract all the files, then, run the .exe go to 'settings' and select the path of you'r games directory
+#### Simply download the latest release [here](https://github.com/Nazky/GTADEMM/releases/latest) and extract all the files, then, run the .exe go to 'settings' and select the path of you'r games directory
 
 ### How i install a mod ?
 #### Select the game you want and click on 'Manage Mods', then, drag and drop the compress mod that's all :)
