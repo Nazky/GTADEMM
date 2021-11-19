@@ -28,10 +28,10 @@ Currently supported file extension :
 
 ## TODO
 
-- [ ] Add pak file extension support (soon)
-- [ ] Add vulkan support (soon)
-- [ ] Add a mods downloader
-- [ ] Add multiple add/delete mods option
+- [x] Add pak file extension support (soon)
+- [x] Add vulkan support (soon)
+- [ ] <s>Add a mods downloader</s> (Can't make it for now, go [here](https://www.nexusmods.com/grandtheftautothetrilogy) to download mods)
+- [x] Add multiple add/delete mods option
 
 
 
