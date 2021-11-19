@@ -10,6 +10,8 @@
             Else
                 If My.Settings.DX12 = True Then
                     Process.Start(My.Settings.GTAVCP & "/GameFace/Binaries/Win64/ViceCity.exe", "-dx12")
+                ElseIf My.Settings.VULKAN = True Then
+                    Process.Start(My.Settings.GTAVCP & "/GameFace/Binaries/Win64/ViceCity.exe", "-vulkan")
                 Else
                     Process.Start(My.Settings.GTAVCP & "/GameFace/Binaries/Win64/ViceCity.exe")
                 End If
@@ -21,11 +23,13 @@
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         Try
-            If My.Settings.GTAVCP = "" Then
+            If My.Settings.GTASAP = "" Then
                 MsgBox("Please put the GTA San Andreas directory in the setting !", MsgBoxStyle.Critical)
             Else
                 If My.Settings.DX12 = True Then
                     Process.Start(My.Settings.GTASAP & "/GameFace/Binaries/Win64/SanAndreas.exe", "-dx12")
+                ElseIf My.Settings.VULKAN = True Then
+                    Process.Start(My.Settings.GTASAP & "/GameFace/Binaries/Win64/SanAndreas.exe", "-vulkan")
                 Else
                     Process.Start(My.Settings.GTASAP & "/GameFace/Binaries/Win64/SanAndreas.exe")
                 End If
@@ -37,11 +41,13 @@
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
         Try
-            If My.Settings.GTAVCP = "" Then
+            If My.Settings.GTA3P = "" Then
                 MsgBox("Please put the GTA III directory in the setting !", MsgBoxStyle.Critical)
             Else
                 If My.Settings.DX12 = True Then
                     Process.Start(My.Settings.GTA3P & "/GameFace/Binaries/Win64/LibertyCity.exe", "-dx12")
+                ElseIf My.Settings.VULKAN = True Then
+                    Process.Start(My.Settings.GTA3P & "/GameFace/Binaries/Win64/LibertyCity.exe", "-vulkan")
                 Else
                     Process.Start(My.Settings.GTA3P & "/GameFace/Binaries/Win64/LibertyCity.exe")
                 End If
@@ -56,9 +62,9 @@
     End Sub
 
     Private Sub Home_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        SetTransparency(Panel4, 40)
-        SetTransparency(Panel5, 40)
-        SetTransparency(Panel6, 40)
+        SetTransparency(Panel4, 50)
+        SetTransparency(Panel5, 50)
+        SetTransparency(Panel6, 50)
     End Sub
 
     Public Sub SetTransparency(ByRef ctrl As Control, ByVal percentTransparent As Integer)

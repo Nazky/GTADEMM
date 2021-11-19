@@ -38,8 +38,10 @@ Public Class GTASCM
     End Sub
 
     Sub InstallM(modpath As String)
+        Me.UseWaitCursor = True
         ModInstaller.GTASA(modpath)
         refershlist()
+        Me.UseWaitCursor = False
     End Sub
 
     Sub UnistallM()
@@ -47,8 +49,7 @@ Public Class GTASCM
     End Sub
 
     Private Sub Panel1_DragDrop(sender As Object, e As DragEventArgs) Handles Panel1.DragDrop
-        Dim files() As String = e.Data.GetData(DataFormats.FileDrop)
-        For Each path In files
+        For Each path As String In CType(e.Data.GetData(DataFormats.FileDrop), String())
             InstallM(path)
         Next
     End Sub
@@ -59,7 +60,7 @@ Public Class GTASCM
         End If
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs)
         refershlist()
     End Sub
 
@@ -74,7 +75,13 @@ Public Class GTASCM
     End Sub
 
     Private Sub DeleteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DeleteToolStripMenuItem.Click
-        ModUnistaller.GTASA(lstDirectories.SelectedItem.ToString)
+        For Each item As String In lstDirectories.SelectedItems
+            ModUnistaller.GTASA(item)
+        Next
+        refershlist()
+    End Sub
+
+    Private Sub RefreshToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RefreshToolStripMenuItem.Click
         refershlist()
     End Sub
 End Class

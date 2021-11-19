@@ -101,6 +101,18 @@ Namespace My
                 Me("DX12") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
+        Public Property VULKAN() As Boolean
+            Get
+                Return CType(Me("VULKAN"),Boolean)
+            End Get
+            Set
+                Me("VULKAN") = value
+            End Set
+        End Property
     End Class
 End Namespace
 

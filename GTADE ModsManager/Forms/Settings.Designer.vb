@@ -35,7 +35,9 @@ Partial Class Settings
         Me.GVCP = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Button4 = New System.Windows.Forms.Button()
-        Me.DX12E = New System.Windows.Forms.CheckBox()
+        Me.DX12E = New System.Windows.Forms.RadioButton()
+        Me.VKE = New System.Windows.Forms.RadioButton()
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.SuspendLayout()
         '
         'Label1
@@ -148,7 +150,7 @@ Partial Class Settings
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(339, 114)
+        Me.Button4.Location = New System.Drawing.Point(328, 120)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(94, 23)
         Me.Button4.TabIndex = 12
@@ -158,18 +160,45 @@ Partial Class Settings
         'DX12E
         '
         Me.DX12E.AutoSize = True
-        Me.DX12E.Location = New System.Drawing.Point(15, 118)
+        Me.DX12E.Location = New System.Drawing.Point(169, 97)
         Me.DX12E.Name = "DX12E"
-        Me.DX12E.Size = New System.Drawing.Size(132, 17)
+        Me.DX12E.Size = New System.Drawing.Size(126, 17)
         Me.DX12E.TabIndex = 13
-        Me.DX12E.Text = "Run games with DX12"
+        Me.DX12E.TabStop = True
+        Me.DX12E.Text = "Run game with DX12"
         Me.DX12E.UseVisualStyleBackColor = True
+        '
+        'VKE
+        '
+        Me.VKE.AutoSize = True
+        Me.VKE.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.VKE.Location = New System.Drawing.Point(15, 97)
+        Me.VKE.Name = "VKE"
+        Me.VKE.Size = New System.Drawing.Size(148, 18)
+        Me.VKE.TabIndex = 14
+        Me.VKE.TabStop = True
+        Me.VKE.Text = "Run game with VULKAN"
+        Me.VKE.UseVisualStyleBackColor = True
+        '
+        'RadioButton1
+        '
+        Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.Checked = True
+        Me.RadioButton1.Location = New System.Drawing.Point(301, 97)
+        Me.RadioButton1.Name = "RadioButton1"
+        Me.RadioButton1.Size = New System.Drawing.Size(115, 17)
+        Me.RadioButton1.TabIndex = 15
+        Me.RadioButton1.TabStop = True
+        Me.RadioButton1.Text = "Run game normally"
+        Me.RadioButton1.UseVisualStyleBackColor = True
         '
         'Settings
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(445, 149)
+        Me.ClientSize = New System.Drawing.Size(430, 149)
+        Me.Controls.Add(Me.RadioButton1)
+        Me.Controls.Add(Me.VKE)
         Me.Controls.Add(Me.DX12E)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Label5)
@@ -208,5 +237,7 @@ Partial Class Settings
     Friend WithEvents GVCP As TextBox
     Friend WithEvents Label6 As Label
     Friend WithEvents Button4 As Button
-    Friend WithEvents DX12E As CheckBox
+    Friend WithEvents DX12E As RadioButton
+    Friend WithEvents VKE As RadioButton
+    Friend WithEvents RadioButton1 As RadioButton
 End Class

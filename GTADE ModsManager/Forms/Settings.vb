@@ -5,6 +5,7 @@ Public Class Settings
         GVCP.Text = My.Settings.GTAVCP
         GSAP.Text = My.Settings.GTASAP
         DX12E.Checked = My.Settings.DX12
+        VKE.Checked = My.Settings.VULKAN
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -48,9 +49,11 @@ Public Class Settings
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         My.Settings.DX12 = DX12E.Checked
+        My.Settings.VULKAN = VKE.Checked
         My.Settings.GTAVCP = GVCP.Text
         My.Settings.GTASAP = GSAP.Text
         My.Settings.GTA3P = G3P.Text
         MsgBox("Saved !", MsgBoxStyle.Information, "GTADE MM")
+        Me.Close()
     End Sub
 End Class
